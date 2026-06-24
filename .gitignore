@@ -1,0 +1,51 @@
+# ─── Secrets — NEVER commit these ────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ─── Data & model artifacts (large, not source code) ─────────────────────────
+data/raw/
+data/processed/
+data/embeddings/
+model/artifacts/
+*.npy
+*.faiss
+*.index
+
+# ─── Claude Code local settings ───────────────────────────────────────────────
+.claude/
+
+# ─── Node / frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.pnpm-store/
+frontend/dist/
+frontend/dist-ssr/
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ─── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+uvicorn_out.txt
+uvicorn_err.txt

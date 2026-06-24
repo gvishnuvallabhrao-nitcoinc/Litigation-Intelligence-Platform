@@ -1,0 +1,22 @@
+# Data pipeline
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+python-dotenv>=1.0.0
+
+# Database
+psycopg2-binary>=2.9.10
+sqlalchemy>=2.0.0
+redis>=5.0.0
+
+# Cohere API (free tier)
+cohere>=5.0.0
+
+# Utils
+tqdm>=4.66.0
+python-dateutil>=2.9.0
